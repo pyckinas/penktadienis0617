@@ -1,8 +1,9 @@
 body{
     background-color: lightskyblue;
+    align-self: center;
 }
 .fonas {
-
+align-self: center;
     width: 900px;
     height: 500px;
    margin-top: 50px;
@@ -17,5 +18,42 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 50px;
 }
+.window{
+    width: 200px;
+    height: 20px;
+    margin-left: 0%;
+    margin-top: 0;
+    border: 10px solid lightskyblue;
+    background-color: lightskyblue;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 50px;
+}   
+.end{
+    width: 100%;
+    padding: 10px 10px;
     
+    border-radius: 6px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 10px;
+
+}
+    
+    /*display: grid;
+  
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: center;
+}
+
+
   
